@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/test/",
+    "build": "vite build --base=/challenge-begins-here/",
     "preview": "vite preview"
   },
   "devDependencies": {
