@@ -1,0 +1,218 @@
+/* Home */
+.home-section{
+  background-image: url("/img/hero/mob.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 820px;
+}
+.home-title{
+  font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 64px;
+line-height: 110%;
+text-align: center;
+color: #BACDCC;
+margin-top: 60px;
+}
+.home-text{
+  font-size: 14px;
+  margin-top: 40px;
+  width: 343px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-text-two{
+  margin-top: 32px;
+  font-size: 14px;
+  color: #BACDCC;
+}
+.home-link{
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border: 1px solid #0A3237;
+border-radius: 8px;
+width: 280px;
+height: 48px;
+box-shadow: 1px 2px 2px 0 rgba(28, 43, 39, 0.6);
+background: #E6B456;
+font-family: "Karla", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+text-transform: uppercase;
+color: #031315;
+}
+.desk{
+  display: none;
+}
+@media only screen and (min-width: 1439px) {
+.home-section{
+  background-image: url("/img/hero/desk.png");
+  height: 890px;
+}
+.home-title{
+  font-size: 80px;
+}
+.desk{
+  display: block;
+}
+.home-text{
+  width: 1180px;
+  margin-top: 24px;
+}
+.home-text-two{
+  margin-top: 24px;
+}
+.home-link{
+  margin-top: 24px;
+}
+}
+/* Multiplayer Logic Quest Rooms */
+.logic-text{
+  margin-top: 32px;
+}
+.logic-list{
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.logic-item{
+  border: 1px solid #0A3237;
+border-radius: 8px;
+padding: 24px;
+width: 260px;
+height: 123px;
+background: #102325;
+letter-spacing: 0.12em;
+}
+.logic-item-text{
+width: 214px;
+}
+@media only screen and (min-width: 1439px) {
+.logic-text{
+  width: 846px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+}
+.logic-list{
+  margin-top: 40px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+.logic-item{
+  font-size: 18px;
+}
+}
+/* HOW IT WORKS */
+.how-subtitle{
+  width: 278px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.how-list{
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.how-item{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  border-radius: 8px;
+padding: 24px;
+width: 280px;
+height: 238px;
+background: linear-gradient(180deg, #102325 0%, #031315 100%);
+}
+.how-item-title{
+  text-transform: uppercase;
+}
+.how-item-text{
+  font-size: 12px;
+  color: #BACDCC;
+}
+.how-text{
+  margin-top: 40px;
+  letter-spacing: 0.16em;
+  font-weight: 200;
+font-size: 18px;
+}
+@media only screen and (min-width: 1439px) {
+.how-subtitle{
+  width: 100%;
+}
+.how-list{
+  margin-top: 48px;
+  flex-direction: row;
+  gap: 48px;
+  justify-content: center;
+}
+.how-item-title{
+  font-size: 18px;
+}
+}
+/* Built for Team Building & Events */
+.build-section{
+  background-image: url("/img/built/mob.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  height: 717px;
+}
+.build-text{
+  margin-top: 35px;
+  font-size: 16px;
+}
+.build-list{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: left;
+}
+.build-item{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.build-item-text{
+  font-size: 12px;
+  color: #BACDCC;
+}
+@media only screen and (min-width: 1439px) {
+.mob{
+  display: none;
+}
+.build-section{
+  background-image: url("/img/built/desk.png");
+  height: 968px;
+}
+.build-wrapper{
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 76px;
+}
+.build-text{
+  margin-top: 0;
+  width: 389px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.build-list{
+  margin-top: 0;
+}
+}
