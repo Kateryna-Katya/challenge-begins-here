@@ -216,3 +216,57 @@ font-size: 18px;
   margin-top: 0;
 }
 }
+/* Plans & Pricing */
+.plans-subtitle{
+  width: 213px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plans-list{
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.plans-item{
+  border-radius: 8px;
+    padding: 24px;
+    width: 290px;
+    height: 141px;
+    background: linear-gradient(180deg, #102325 0%, #031315 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+align-items: start;
+}
+.plans-item-title{
+  text-transform: uppercase;
+}
+.plans-item-text{
+  font-size: 14px;
+  text-align: left;
+}
+.plans-text{
+  font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    margin-top: 32px;
+}
+@media only screen and (min-width: 1439px) {
+  .plans-subtitle{
+    width: 100%;
+  }
+  .plans-list{
+    margin-top: 48px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .plans-item-title{
+    font-size: 18px;
+  }
+  .plans-text{
+    margin-top: 48px;
+  }
+}
