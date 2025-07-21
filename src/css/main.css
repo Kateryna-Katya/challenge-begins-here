@@ -360,3 +360,53 @@ font-size: 24px;
     width: 1014px;
     }
 }
+/* contact us */
+.contact-section{
+  background-image: url("/img/contact/mob.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  height: 800px;
+}
+.contact-text{
+  margin-top: 32px;
+font-size: 16px;
+font-weight: 200;
+}
+.contact-list{
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.contact-item{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 343px;
+}
+.contact-item-text{
+  font-size: 14px;
+  color: #bacdcc;
+}
+.email-link{
+  display: flex;
+  align-items: center;
+    font-size: 14px;
+      color: #bacdcc;
+        gap: 16px;
+}
+@media only screen and (min-width: 1439px) {
+  .contact-section{
+    background-image: url("/img/contact/desk.png");
+    background-position: bottom right;
+    background-size: 60% 585px;
+    height: 585px;
+  }
+  .contact-subtitle{
+text-align: left;
+  }
+  .contact-text{
+    text-align: left;
+  }
+}
